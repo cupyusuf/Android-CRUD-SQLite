@@ -19,7 +19,7 @@ public class DataHelper extends SQLiteOpenHelper {
         Log.d("Data", "onCreate: " + sql);
         db.execSQL(sql);
         sql = "INSERT INTO biodata (no, nama, tgl, jk, alamat) " +
-                "VALUES ('0', 'Jalaludin', '1996-07-11', 'Lakilaki','Rangkasbitung');";
+                "VALUES ('17180068', 'Yusuf Supriadi', '1999-04-01', 'Laki-Laki','Cimahi');";
         db.execSQL(sql);
     }
     @Override
